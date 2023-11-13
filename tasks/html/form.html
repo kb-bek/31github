@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Верстка веб-форм</title>
+</head>
+<body>
+    <h2>Отправка заявки на конференцию</h2>
+    <h3>Основыне данные</h3>
+    <h5>* Фамилия, имя, отчество:</h5>
+    <input type="text">
+
+    <h5>Дата рождения:</h5>
+    <input type="date" placeholder="дд.мм.гггг">
+
+    <h5>Пол:</h5>
+    <input type="radio" name="choice">мужской
+    <input type="radio" name="choice">женский
+
+    <h3>Данные для создания личного кабинета</h3>
+    <h5>* Адрес электронной почты:</h5>
+    <input type="email" checked required>
+
+    <h5>* Пароль для создание личного кабинета</h5>
+    <input type="password" required>
+
+    <h5>* Подверждение пароля</h5>
+    <input type="password" required>    
+    
+    <h3>Материалы для конференции</h3>
+    <h5>* Тема доклада:</h5>
+    <input type="text" required>
+
+    <h5>*Тезисы доклада (не более 1000 символов)</h5>
+    <textarea name="text" id="text" cols="30" rows="10" required></textarea>
+
+    <h5>Файл презентации</h5>
+    <input type="file">
+
+    <h3>Дополнительные опции</h3>
+    <input type="checkbox" name="hotel" ><label for="hotel">Проживание в отеле</label><br>
+    <input type="checkbox" name="breakfast" checked><label for="breakfast">Завтрак</label><br>
+    <input type="checkbox" name="lunch"><label for="lunch">Обед</label><br>
+    <input type="checkbox" name="dinner"><label for="dinner">Ужин</label>
+
+    <hr>
+    <input type="button">Отправить
+</body>
+</html>
