@@ -17,4 +17,4 @@ for divisor in range(2, n):
     if n % divisor == 0 and divisor in prime_nums:
         divisors_sum += divisor
 
-print(divisors_sum
+print(divisors_sum)
