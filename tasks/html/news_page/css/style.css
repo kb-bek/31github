@@ -1,0 +1,159 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-width: 1000px;
+    font-family: Arial;
+}
+
+.fixed-container {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.black-bar {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+#datetime {
+    float: right;
+}
+
+#logo {
+    position: absolute;
+    top: 40px;
+    float: left;
+}
+
+.cities {
+    position: absolute;
+    top: 55px;
+    left: 200px;
+    border: 0;
+    color: blue ;
+}
+
+.weather {
+    position: absolute;
+    right: 300px;
+    top: 45px;
+}
+
+
+.weather-img {
+    position: relative;
+    top: 3px;
+}
+
+.degree {
+    display: inline-block;
+    color: grey;
+}
+
+
+.search {
+    position: absolute;
+    right: 0cap;
+    top: 50px;
+    border: 2px solid grey;
+    width: 230px;
+    height: 20px;
+}
+
+.nav {
+    position: relative;
+    top: 100px;
+    height: 70px;
+}
+
+.nav-list {
+    padding: 0px;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+#content {
+    position: relative;
+    top: 120px;
+}
+
+.section-left {
+    float: left;
+    width: 250px;
+}
+
+    .daily-news h3 {
+        margin: 0px;
+        padding-left: 35px;
+    }
+
+    .daily-news ul {
+        list-style-type: none;
+        padding-left: 35px;
+    }
+
+    .daily-news ul li {
+        margin-top: 30px;
+        margin-bottom: 0px;
+
+    }
+
+    .daily-news ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .daily-news ul li span {
+        font-size: 12px;
+    }
+
+.section-centre {
+    float: left;
+    width: 420px;
+    margin-left: 20px;
+}
+
+    .main-new {
+        background-image: url("file:///C:/Users/Kubanych/Desktop/Frontend/practice_html_css/news_page/img/dostoprimechatelnosti-bishkeka.jpg");
+        background-position: center;
+        background-size: cover;
+        padding: 0px;
+        height: 300px;
+    }
+
+    .main-new h1 {
+        margin: 0px;
+        padding-top: 130px;
+        padding-left: 30px;
+        color: whitesmoke;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+    }
+    
+    .category {
+        position: relative;
+        top: 110px;
+        left: 30px;
+        color: white;
+    }
+
+.section-right {
+    float:right;
+    width: 250px;
+}
+
+.section-right img {
+    margin-bottom: 20px;
+}
