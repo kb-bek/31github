@@ -90,12 +90,14 @@ html, body {
 }
 
 .section-left {
+    position: relative;
     float: left;
     width: 250px;
+    border: 1px solid gray;
 }
 
     .daily-news h3 {
-        margin: 0px;
+        margin: 5px;
         padding-left: 35px;
     }
 
@@ -122,11 +124,13 @@ html, body {
 .section-centre {
     float: left;
     width: 420px;
+    height: 100%;
     margin-left: 20px;
+    position: relative;
 }
 
     .main-new {
-        background-image: url("file:///C:/Users/Kubanych/Desktop/Frontend/practice_html_css/news_page/img/dostoprimechatelnosti-bishkeka.jpg");
+        background-image: url("/img/dostoprimechatelnosti-bishkeka.jpg");
         background-position: center;
         background-size: cover;
         padding: 0px;
@@ -149,11 +153,148 @@ html, body {
         color: white;
     }
 
+    .news-left-block {
+        width: 200px;
+        height: 100%;
+        float: left;
+    }
+    
+    .new {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .new-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .new-link {
+        text-decoration: none;
+        color:black;
+    }
+
+    .new h5 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .new-info {
+        font-size: 12px;
+    }
+
+    .datetime {
+        display: inline-block;
+        float: right;
+        margin-right: 10px;
+    }
+    .date{
+        margin-right: 5px;
+    }
+
+    .news-right-block {
+        float: right;
+        width: 200px;
+        height: 100%;
+    }
+
 .section-right {
+    position: relative;
     float:right;
     width: 250px;
 }
 
 .section-right img {
     margin-bottom: 20px;
+}
+
+
+.main-most-read-new{
+    position: absolute;
+    top: 890px;
+    width: 600px;
+    height: 400px;
+    background-image: url("/img/ceo-openai.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.main-most-read-new h1 {
+    position: relative;
+    top: 160px;
+    color:white;
+    margin-left: 20px;
+    width: 400px;
+}
+
+.main-most-read-new .description {
+    position: relative;
+    top: 170px;
+    margin-left: 20px;
+    color: white;
+    display: block;
+    width: 500px;
+} 
+
+.most-read-news {
+    position: absolute;
+    top: 890px;
+    right: 0px;
+    width: 340px;
+}
+.most-read-news h3 {
+    margin: 0px;
+}
+
+.most-read-new-list{
+    margin-top: 30px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.most-read-new-item {
+    margin-bottom: 60px;
+}
+
+.most-read-new-item a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.most-read-new-item .datetime {
+    margin-top: 15px;
+}
+
+
+.footer {
+    position: absolute;
+    top: 1700px;
+    background-color: #00122f;
+    width: 100%;
+    height: 270px;
+}
+
+.footer-nav {
+    position: absolute;
+    left: 200px;
+}
+
+.footer-nav-list {
+    width: 300px;
+    list-style-type: none;
+    
+}
+
+.footer-nav-link {
+    text-decoration: none;
+    color: white;
+}
+.footer-nav-item {
+    margin-top: 5px;
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
