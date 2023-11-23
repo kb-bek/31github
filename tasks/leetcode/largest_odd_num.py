@@ -4,3 +4,4 @@ class Solution:
       if int(n) & 1:
         return num[:i + 1]
     return ''
+
