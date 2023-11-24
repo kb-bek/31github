@@ -1,0 +1,91 @@
+.logo {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    
+}
+
+.header-bg-color {
+    background-color: lightblue;
+}
+
+
+.flex-display {
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+    width: 75%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-nav {
+    margin-left: 70px;
+}
+
+.nav-item {
+    margin-right: 70px;
+}
+
+.form {
+    display: flex;
+    margin-left: 150px;
+    justify-content: flex-end;
+}
+
+.pc-img {
+    width: 600px;
+    height: auto;
+    margin-right: 40px;
+}
+
+.col-lg-12 {
+    display: flex;
+}
+
+.container {
+    width: 50%;
+
+}
+
+.about {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 400px;
+    padding: 50px;
+}
+
+.sell-heading {
+    background-color: ;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.col-lg-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid black;
+}
+
+.product-img {
+    width: 200px;
+    height: auto;
+}
+
+section {
+    margin-bottom: 200px;
+}
