@@ -1,0 +1,16 @@
+C:\Users\Kubanych\Desktop\VisualBasic\Exam\Exam\bin\Debug\net6.0-windows\Exam.exe
+C:\Users\Kubanych\Desktop\VisualBasic\Exam\Exam\bin\Debug\net6.0-windows\Exam.deps.json
+C:\Users\Kubanych\Desktop\VisualBasic\Exam\Exam\bin\Debug\net6.0-windows\Exam.runtimeconfig.json
+C:\Users\Kubanych\Desktop\VisualBasic\Exam\Exam\bin\Debug\net6.0-windows\Exam.dll
+C:\Users\Kubanych\Desktop\VisualBasic\Exam\Exam\bin\Debug\net6.0-windows\Exam.pdb
+C:\Users\Kubanych\Desktop\VisualBasic\Exam\Exam\obj\Debug\net6.0-windows\Exam.Form1.resources
+C:\Users\Kubanych\Desktop\VisualBasic\Exam\Exam\obj\Debug\net6.0-windows\Exam.vbproj.GenerateResource.cache
+C:\Users\Kubanych\Desktop\VisualBasic\Exam\Exam\obj\Debug\net6.0-windows\Exam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kubanych\Desktop\VisualBasic\Exam\Exam\obj\Debug\net6.0-windows\Exam.AssemblyInfoInputs.cache
+C:\Users\Kubanych\Desktop\VisualBasic\Exam\Exam\obj\Debug\net6.0-windows\Exam.AssemblyInfo.vb
+C:\Users\Kubanych\Desktop\VisualBasic\Exam\Exam\obj\Debug\net6.0-windows\Exam.vbproj.CoreCompileInputs.cache
+C:\Users\Kubanych\Desktop\VisualBasic\Exam\Exam\obj\Debug\net6.0-windows\Exam.dll
+C:\Users\Kubanych\Desktop\VisualBasic\Exam\Exam\obj\Debug\net6.0-windows\refint\Exam.dll
+C:\Users\Kubanych\Desktop\VisualBasic\Exam\Exam\obj\Debug\net6.0-windows\Exam.pdb
+C:\Users\Kubanych\Desktop\VisualBasic\Exam\Exam\obj\Debug\net6.0-windows\Exam.genruntimeconfig.cache
+C:\Users\Kubanych\Desktop\VisualBasic\Exam\Exam\obj\Debug\net6.0-windows\ref\Exam.dll
